@@ -1,0 +1,34 @@
+# Archivos de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Entorno virtual (si usas uno)
+venv/
+env/
+
+# Base de datos SQLite (si la usas)
+db.sqlite3
+
+# Configuración de entornos (credenciales, API keys, etc.)
+.env
+
+# Archivos de logs y caché
+*.log
+*.pot
+*.pyc
+*.swp
+
+# Configuración de editores y entornos de desarrollo
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Migraciones innecesarias o parciales
+**/migrations/*  
+!**/migrations/__init__.py
+
+# Archivos de dependencias locales
+.DS_Store
+node_modules/
